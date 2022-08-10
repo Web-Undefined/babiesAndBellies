@@ -1,0 +1,401 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Babies & Bellies</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="shortcut icon" type="image/png" href="images/tabIcon.png" />
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<button id="trans-btn" class="translate-btn small">Translate</button>
+
+		<!-- Translate Modal -->
+		<div id="translateModal" class="modal">
+
+			<!-- Modal content -->
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<div class="translate-container">
+					<div id="google_translate_element"></div>
+					<script>
+						function googleTranslateElementInit() {
+							new google.translate.TranslateElement({
+								includedLanguages: 'en,es'
+							}, 'google_translate_element');
+						}
+					</script>
+					<script
+						src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+				</div>
+			</div>
+		</div>
+
+		<script>// Get the modal
+			var modal = document.getElementById("translateModal");
+
+			// Get the button that opens the modal
+			var btn = document.getElementById("trans-btn");
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks on the button, open the modal
+			btn.onclick = function () {
+				modal.style.display = "block";
+			}
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function () {
+				modal.style.display = "none";
+			}
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function (event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			}</script>
+
+		<!-- Header -->
+		<section id="header">
+
+			<!-- Logo -->
+			<a href="index.html" class="logo"><strong>Babies</strong> & Bellies</a>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li class="current"><a href="about.html">About Us</a></li>
+					<li>
+						<a href="packages.html" class="icon solid fa-angle-down">Ultrasound Packages</a>
+						<ul>
+							<li><a href="packages.html" class="subMenu">2D/3D/4D Ultrasound</a></li>
+							<li><a href="packages.html#specials" class="subMenu">Specials</a></li>
+							<li><a href="packages.html#faq" class="subMenu">FAQ</a></li>
+							<li><a href="best-timing.html" class="subMenu">Pregnancy Calendar</a></li>
+							<li><a href="best-timing.html#peek" class="subMenu">Ideal Time To Peek</a></li>
+							<li><a href="gallery.html" class="subMenu">Gallery</a></li>
+						</ul>
+					</li>
+					<li><a href="massage.html">Massage Services</a></li>
+					<li>
+						<a href="forms-policies.html" class="icon solid fa-angle-down">Forms/Policies</a>
+						<ul>
+							<li><a href="forms-policies.html#resources" class="subMenu">Resources</a></li>
+						</ul>
+					</li>
+					<li><a href="index.html#six" class="scrolly">Contact Us</a></li>
+				</ul>
+			</nav>
+
+		</section>
+
+		<!-- Section -->
+		<section class="wrapper style1">
+			<div class="inner">
+				<header class="major special">
+					<h1>About Us</h1>
+				</header>
+				<div class="image main"><img src="images/Babies-Bellies-ri.jpg" alt="" /></div>
+				<h3>Who we are</h3>
+				<p>We are a charming prenatal and postnatal wellness spa, conveniently located in Warwick, Rhode Island.
+					We specialize in many areas pertaining to motherhood and beyond, from 3D/4D imaging to therapeutic
+					massage, yoga, and education.</p>
+				<p>Our intention is to provide you with a warm and inviting space along with nourishing educational and
+					professional services as you journey through motherhood and beyond.</p>
+				<p>We are a group of healthcare professionals eager to serve you and your family. Your satisfaction is
+					our number one priority. We are dedicated to capturing a moment that you can remember forever.</p>
+				<p>We offer numerous services to empower, educate, and pamper you along the way. As the physical and
+					emotional needs of your pregnancy change, let Babies & Bellies be there for you! Enjoy your journey!
+				</p>
+
+
+				<section class="carousel">
+					<article>
+						<a href="images/1.jpg" class="image"><img src="images/1.jpg" alt="" title="Front Room" /></a>
+					</article>
+					<article>
+						<a href="images/2.jpg" class="image"><img src="images/2.jpg" alt="" title="Front Room" /></a>
+					</article>
+					<article>
+						<a href="images/3.jpg" class="image"><img src="images/3.jpg" alt="" title="Waiting Room" /></a>
+					</article>
+					<article>
+						<a href="images/4.jpg" class="image"><img src="images/4.jpg" alt="" title="Waiting Room" /></a>
+					</article>
+					<article>
+						<a href="images/5.jpg" class="image"><img src="images/5.jpg" alt="" title="Exam Room" /></a>
+					</article>
+					<article>
+						<a href="images/6.jpg" class="image"><img src="images/6.jpg" alt="" title="Exam Room" /></a>
+					</article>
+					<article>
+						<a href="images/7.jpg" class="image"><img src="images/7.jpg" alt="" title="Exam Room" /></a>
+					</article>
+					<article>
+						<a href="images/8.jpg" class="image"><img src="images/8.jpg" alt="" title="Exam Room" /></a>
+					</article>
+					<article>
+						<a href="images/9.jpg" class="image"><img src="images/9.jpg" alt="" title="Family Room" /></a>
+					</article>
+					<article>
+						<a href="images/10.jpg" class="image"><img src="images/10.jpg" alt="" title="Family Room" /></a>
+					</article>
+					<article>
+						<a href="images/11.jpg" class="image"><img src="images/11.jpg" alt="" title="Kitchen" /></a>
+					</article>
+					<article>
+						<a href="images/12.jpg" class="image"><img src="images/12.jpg" alt="" title="Main Room" /></a>
+					</article>
+					<article>
+						<a href="images/13.jpg" class="image"><img src="images/13.jpg" alt="" title="Lash Room" /></a>
+					</article>
+					<article>
+						<a href="images/14.jpg" class="image"><img src="images/14.jpg" alt="" title="Lash Room" /></a>
+					</article>
+					<article>
+						<a href="images/15.jpg" class="image"><img src="images/15.jpg" alt=""
+								title="Massage Room" /></a>
+					</article>
+				</section>
+
+				<div class="container">
+					<ul class="actions special">
+						<li><a href="gallery.html" class="button alt">Full Gallery</a></li>
+					</ul>
+				</div>
+
+				<hr class="major" style="margin-bottom: 0;" />
+
+			</div>
+		</section>
+
+		<!-- Section -->
+		<section class="wrapper style1 repeating" style="padding-top: 0;">
+			<div class="inner">
+				<header class="major special">
+					<h1>Our Staff</h1>
+				</header>
+				<div class="spotlights">
+					<section>
+						<div class="image"><img src="images/momzo.png" alt="" /></div>
+						<div class="content">
+							<header class="major">
+								<h3>Lynn Butler</h3>
+							</header>
+							<p class="bio-spotlights">My name is Lynn. I’m the proud owner of Babies & Bellies 3D/4D
+								Ultrasound Studio and
+								Prenatal Wellness Spa. My vision was to always offer a family friendly environment with
+								a caring and dedicated staff who are willing to go above and beyond to ensure your visit
+								is comfortable and unforgettable. We take pride in all our new mommies-to-be, making
+								sure they feel special and cared for during their visit.</br></br>
+
+								At Babies & Bellies we truly value being able to bring you and your loved ones an
+								experience that will last a lifetime. Seeing your new baby for the first time is such a
+								magical experience. We are honored to have served thousands of families and are excited
+								to share this Miracle of Life with you and your families.</br></br>
+
+								We offer you the most advanced and up to date imaging system with our GE Voluson. All of
+								our ARDMS or ARDMS eligible sonographers have been extensively trained in the art of
+								3D/4D imaging. At Babies & Bellies we are excited to bring you this new ultrasound
+								technology and offer it to you as a wonderful bonding experience that the entire family
+								will enjoy.</br></br>
+
+								We are an established imaging facility that was originally founded in Providence, Rhode
+								Island in 2010, but since moved to Warwick, Rhode Island July of 2018.</br></br>
+
+								We offer a spacious, comfortable place for you to come and experience the miracle of
+								life! We offer many entertainment 2D/ 3D and 4D ultrasound packages to fit every budget
+								and we look forward to welcoming you!</p>
+						</div>
+					</section>
+					<section>
+						<div class="image"><img src="images/deanna.png" alt="" /></div>
+						<div class="content">
+							<header class="major">
+								<h3>Deanna Parsons</h3>
+							</header>
+							<p class="bio-spotlights">Deanna is our lead ultrasound technician and has been with us
+								since 2011. She first
+								became interested in the ultrasound field while attending her own ultrasounds for her
+								children and while pregnant with her 2nd child she decided to take the leap and follow
+								her dreams. She graduated from a diagnostic medical ultrasound program in New York, NY
+								in 2008.</br></br>
+
+								Her first job after graduation was at a 3D ultrasound facility in NY where she developed
+								her passion for obstetric ultrasound. She relocated to Rhode Island in 2010 and was
+								determined to find a job doing what she loves most and fate brought her to Babies and
+								Bellies!</p>
+						</div>
+					</section>
+
+					<section>
+						<div class="image"><img src="images/stacy.png" alt="" /></div>
+						<div class="content">
+							<header class="major">
+								<h3>Stacy Smith</h3>
+							</header>
+							<p class="bio-spotlights">Stacy, was born & raised right here in Rhode Island; She has been
+								with Babies and Bellies
+								as front end reception since May of 2015. Stacy had previously worked for an OBGYN
+								office as a Medical Assistant for years before deciding to go back to school to further
+								her education and earn her degree.</br></br>
+
+								She attended The Community College of Rhode Island, earning her A.A in General Studies
+								and then continued her education at Rhode Island College; where she earned her B.A. in
+								Psychology. Stacy is a Social Worker full time, where she has for the last 15 years
+								worked with children and families from various, diverse backgrounds.</br></br>
+
+								Stacy is also a single mom who loves spending time with her now young adult son.
+								Together they enjoy taking trips to Disney World as well as tropical locations such as
+								Mexico.</br></br>
+
+								In her spare time, Stacy enjoys reading, spending time with friends and family, and
+								working on her flower garden. She also loves to cook and create new recipes.</br></br>
+
+								As of late, Stacy also enjoys helping others feel empowered and beautiful with her own
+								small jewelry business; Sparklyn’ with Stacy. </p>
+						</div>
+					</section>
+
+					<section>
+						<div class="image"><img src="images/brittany.png" alt="" /></div>
+						<div class="content">
+							<header class="major">
+								<h3>Brittany Gallant</h3>
+							</header>
+							<p class="bio-spotlights">Brittany started at Babies & Bellies in the summer of 2020, with 8
+								years of customer
+								service experience. She has an Associate in Fine Arts degree from CCRI Warwick, and
+								enjoys being creative in her time away from work, sewing and crafting.</br></br>
+
+								Brittany volunteers at Friends Way, an organization focused on helping local children
+								through the grieving process. Recently became an aunt for the second time, Brittany is
+								loving life with little ones in her family.</p>
+						</div>
+					</section>
+
+					<section>
+						<div class="image"><img src="images/michelle.png" alt="" /></div>
+						<div class="content">
+							<header class="major">
+								<h3>Michelle Galipeau</h3>
+							</header>
+							<p class="bio-spotlights">Michelle attended CCRI in Lincoln, RI. She graduated in 1986
+								receiving an associate’s
+								degree in Radiology. She was hired at a local community hospital as an x-ray technician
+								working in diagnostic imaging. The ultrasound department was nearby and it wasn’t long
+								before she sparked an interest in sonography.</br></br>
+
+								She soon found herself back at school for ultrasound at the urging of a fellow
+								colleague. Throughout her schooling, she remained employed by the same community
+								hospital changing from a position in x-ray to a position in ultrasound in
+								1993.</br></br>
+
+								She became registered by the ARDMS in abdominal and OBGYN ultrasound in 1994. She has
+								always found scanning obstetrics one of the most rewarding areas to work in. It’s what
+								originally sparked her interest in the ultrasound field. She started her position at
+								Babies and Bellies in 2021 and is thrilled to be working with an exceptional team doing
+								what she loves.</p>
+						</div>
+					</section>
+					<section>
+						<div class="image"><img src="images/jocelyn.png" alt="" /></div>
+						<div class="content">
+							<header class="major">
+								<h3>Jocelyn Eichenfeldt</h3>
+							</header>
+							<p class="bio-spotlights">Jocelyn was raised in Rhode Island, and after graduating high
+								school she moved to Fort
+								Myers FL. Only a short time after moving, she decided Rhode Island was where she needed
+								to be. After moving back to Rhode Island in 2019 Jocelyn joined the Babies and Bellies
+								family.</br></br>
+
+								Soon after beginning her work at Babies and Bellies, Jocelyn realized she has a passion
+								and great interest for Obstetrics and began working at an OB/Gyn office in Pawtucket
+								Rhode Island where she is currently a medical secretary.</br></br>
+
+								In her free time, Jocelyn enjoys kayaking, fishing, and cooking.</br></br>
+
+								Jocelyn’s goal for the future is to one day establish a Non-Profit Organization based in
+								Rhode Island for young moms and dads to receive support for themselves and their new
+								baby’s lives.</p>
+						</div>
+					</section>
+
+					<section>
+						<div class="image"><img src="images/Kayla.png" alt="" /></div>
+						<div class="content">
+							<header class="major">
+								<h3>Kayla Wallace RDMS, RVT</h3>
+							</header>
+							<p class="bio-spotlights">Kayla Graduated from New England Institute of Technology in 2010,
+								receiving an associates
+								of science. She was hired at her externship site, a busy OBGYN office, where she worked
+								as a medical assistant.</br></br>
+
+								She enrolled in Rhode Island college a few years later initially to pursue a bachelors
+								in nursing, but quickly realized her heart was in medical imaging. Working in the Obgyn
+								office ignited her passion for ultrasound. She graduated from Rhode Island college and
+								the Lifespan School of Medical Imaging in 2019.</br></br>
+
+								She joined Babies and Bellies shortly after graduation in 2019 and loves being able to
+								help families make great memories together.</p>
+						</div>
+					</section>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<section id="footer">
+			<ul class="icons">
+				<li><a href="https://www.facebook.com/BabiesandBelliesUltrasound/"
+						class="icon alt brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="https://www.instagram.com/babiesandbellies3d/" class="icon alt brands fa-instagram"><span
+							class="label">Instagram</span></a></li>
+				<li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=mrsart150@gmail.com&su=Subject&body=Body"
+						class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+				<li><a href="tel:4017372229"
+						onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
+						class="icon alt solid fa-phone"><span class="label">Phone</span></a></li>
+			</ul>
+			<div class="align-center">
+				<p id="fee">All Credit Card purchases will require a 2.9% Credit Card
+					Processing Fee.
+					This processing fee will apply to all deposits previously taken at time of scheduling.
+					<br>Thank you,
+					Babies & Bellies Management
+				</p>
+			</div>
+			<p class="copyright">
+				&copy; <a href="https://www.webundefined.com/">Web Undefined, LLC</a>. All rights reserved.
+			</p>
+		</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

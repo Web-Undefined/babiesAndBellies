@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Babies & Bellies</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="shortcut icon" type="image/png" href="images/tabIcon.png" />
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<button id="trans-btn" class="translate-btn small">Translate</button>
+
+		<!-- Translate Modal -->
+		<div id="translateModal" class="modal">
+
+			<!-- Modal content -->
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<div class="translate-container">
+					<div id="google_translate_element"></div>
+					<script>
+						function googleTranslateElementInit() {
+							new google.translate.TranslateElement({
+								includedLanguages: 'en,es'
+							}, 'google_translate_element');
+						}
+					</script>
+					<script
+						src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+				</div>
+			</div>
+		</div>
+
+		<script>// Get the modal
+			var modal = document.getElementById("translateModal");
+
+			// Get the button that opens the modal
+			var btn = document.getElementById("trans-btn");
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks on the button, open the modal
+			btn.onclick = function () {
+				modal.style.display = "block";
+			}
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function () {
+				modal.style.display = "none";
+			}
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function (event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			}</script>
+
+		<!-- Header -->
+		<section id="header">
+
+			<!-- Logo -->
+			<a href="index.html" class="logo"><strong>Babies</strong> & Bellies</a>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li class="current"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li>
+						<a href="packages.html" class="icon solid fa-angle-down">Ultrasound Packages</a>
+						<ul>
+							<li><a href="packages.html" class="subMenu">2D/3D/4D Ultrasound</a></li>
+							<li><a href="packages.html#specials" class="subMenu">Specials</a></li>
+							<li><a href="packages.html#faq" class="subMenu">FAQ</a></li>
+							<li><a href="best-timing.html" class="subMenu">Pregnancy Calendar</a></li>
+							<li><a href="best-timing.html#peek" class="subMenu">Ideal Time To Peek</a></li>
+							<li><a href="gallery.html" class="subMenu">Gallery</a></li>
+						</ul>
+					</li>
+					<li><a href="massage.html">Massage Services</a></li>
+					<li>
+						<a href="forms-policies.html" class="icon solid fa-angle-down">Forms/Policies</a>
+						<ul>
+							<li><a href="forms-policies.html#resources" class="subMenu">Resources</a></li>
+						</ul>
+					</li>
+					<li><a href="index.html#six" class="scrolly">Contact Us</a></li>
+				</ul>
+			</nav>
+
+		</section>
+
+		<!-- Section -->
+		<section class="wrapper style1">
+			<div class="inner">
+				<header class="major special">
+					<h1>Schedule Now</h1>
+					<p class="less-margin">Appointments can also be made by calling</p>
+					<ul class="actions special">
+						<li><a href="tel:4017372229"
+								onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
+								class="button primary wide scrolly" style="margin-bottom: 2em !important;">Call Now</a>
+						</li>
+					</ul>
+				</header>
+				<div id="schedule-container">
+					<div id='frameTitle' class='embedded-widget-title'
+						style='font-size: 30px; color: #333;font-family:Arial, Helvetica, sans-serif; line-height:24px; padding: 18px 10px 8px; text-align: center; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;'>
+						Book Now</div>
+					<div class="vagaro" style="width:250px; padding:0; border:0; margin:0 auto; text-align:center;">
+						<style>
+							.vagaro a {
+								font-size: 14px;
+								color: #AAA;
+								text-decoration: none;
+							}
+						</style><a href="https://sales.vagaro.com/">Powered by Vagaro</a>&nbsp;<a
+							href="https://sales.vagaro.com/salon-software">Salon Software</a>,&nbsp;<a
+							href="https://sales.vagaro.com/spa-software">Spa Software</a>&nbsp;&amp;&nbsp;<a
+							href="https://sales.vagaro.com/fitness-software">Fitness Software</a>
+						<script type="text/javascript"
+							src="https://www.vagaro.com//resources/WidgetEmbeddedLoader/OZqsE30rCYPqFJ1y6BuPlXoSlXYO61Cq7fYO61WO4pUUeJUtjP0dDxkJEvwPapWUgZawifCs7fc?v=2AqvUvVa4ceXtKJLPKdqGR8FW1oaYAuTB9NzaLA9ktm#"></script>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<section id="footer">
+			<ul class="icons">
+				<li><a href="https://www.facebook.com/BabiesandBelliesUltrasound/"
+						class="icon alt brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="https://www.instagram.com/babiesandbellies3d/" class="icon alt brands fa-instagram"><span
+							class="label">Instagram</span></a></li>
+				<li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=mrsart150@gmail.com&su=Subject&body=Body"
+						class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+				<li><a href="tel:4017372229"
+						onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
+						class="icon alt solid fa-phone"><span class="label">Phone</span></a></li>
+			</ul>
+			<div class="align-center">
+				<p id="fee">All Credit Card purchases will require a 2.9% Credit Card
+					Processing Fee.
+					This processing fee will apply to all deposits previously taken at time of scheduling.
+					<br>Thank you,
+					Babies & Bellies Management
+				</p>
+			</div>
+			<p class="copyright">
+				&copy; <a href="https://www.webundefined.com/">Web Undefined, LLC</a>. All rights reserved.
+			</p>
+		</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

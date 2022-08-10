@@ -1,0 +1,263 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Babies & Bellies</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="shortcut icon" type="image/png" href="images/tabIcon.png" />
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<button id="trans-btn" class="translate-btn small">Translate</button>
+
+		<!-- Translate Modal -->
+		<div id="translateModal" class="modal">
+
+			<!-- Modal content -->
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<div class="translate-container">
+					<div id="google_translate_element"></div>
+					<script>
+						function googleTranslateElementInit() {
+							new google.translate.TranslateElement({
+								includedLanguages: 'en,es'
+							}, 'google_translate_element');
+						}
+					</script>
+					<script
+						src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+				</div>
+			</div>
+		</div>
+
+		<script>// Get the modal
+			var modal = document.getElementById("translateModal");
+
+			// Get the button that opens the modal
+			var btn = document.getElementById("trans-btn");
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks on the button, open the modal
+			btn.onclick = function () {
+				modal.style.display = "block";
+			}
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function () {
+				modal.style.display = "none";
+			}
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function (event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			}</script>
+
+		<!-- Header -->
+		<section id="header">
+
+			<!-- Logo -->
+			<a href="index.html" class="logo"><strong>Babies</strong> & Bellies</a>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li>
+						<a href="packages.html" class="icon solid fa-angle-down">Ultrasound Packages</a>
+						<ul>
+							<li><a href="packages.html" class="subMenu">2D/3D/4D Ultrasound</a></li>
+							<li><a href="packages.html#specials" class="subMenu">Specials</a></li>
+							<li><a href="packages.html#faq" class="subMenu">FAQ</a></li>
+							<li><a href="best-timing.html" class="subMenu">Pregnancy Calendar</a></li>
+							<li><a href="best-timing.html#peek" class="subMenu">Ideal Time To Peek</a></li>
+							<li><a href="gallery.html" class="subMenu">Gallery</a></li>
+						</ul>
+					</li>
+					<li><a href="massage.html">Massage Services</a></li>
+					<li class="current">
+						<a href="forms-policies.html" class="icon solid fa-angle-down">Forms/Policies</a>
+						<ul>
+							<li><a href="#resources" class="subMenu scrolly">Resources</a></li>
+						</ul>
+					</li>
+					<li><a href="index.html#six" class="scrolly">Contact Us</a></li>
+				</ul>
+			</nav>
+
+		</section>
+
+		<!-- Section -->
+		<section class="wrapper style1">
+			<div class="inner">
+				<header class="major special">
+					<h1>Forms & Policies</h1>
+				</header>
+				<!--<div class="image main"><img id="formImg" src="images/exam-room.jpg" alt="" /></div>-->
+				<h3 class="centered">Forms</h3>
+				<ul class="actions special">
+					<li><a href="https://forms.vagaro.com/us03/formresponse/hDHnhSN4UmNqHOT3q425xPKOU7zZ4ByaAj5kBxtdJoz0"
+							class="button primary wide scrolly">COVID-19 Consent Form</a></li>
+					<li><a href="https://forms.vagaro.com/5f9c82988c0e522468db8100"
+							class="button primary wide scrolly">Images and Return Visits</a></li>
+
+				</ul>
+
+				<ul class="actions special">
+					<li><a href="https://forms.vagaro.com/5f9c80e94e91d90e0c145f45"
+							class="button primary wide scrolly">Ultrasound Client Form</a></li>
+					<li><a href="index.html#six" class="button primary accent wide scrolly">Contact Us</a></li>
+				</ul>
+
+				<hr class="major" />
+				<div class="policy-parent">
+					<div class="policy-container">
+						<h3>APPOINTMENTS</h3>
+						<p>Your card will be charged in full at the time of scheduling your appointment.</p>
+					</div>
+					<div class="policy-container align-right">
+						<h3>NO-SHOWS</h3>
+						<p>100% of the service will be charged for all no-shows.</p>
+					</div>
+				</div>
+
+				<hr class="major" />
+
+				<h3>ULTRASOUND APPOINTMENTS</h3>
+				<p>For clients who are scheduled for an ultrasound, we want to explain that we do our very best to stay
+					on
+					schedule and bring you in on time. We understand your time is valuable. We do in fact allot extra
+					time
+					for all of our clients, however, most times we are working on the babies’ schedule and not ours. The
+					baby ultimately runs the show…Sometimes we have to be patient and wait for the baby to move into
+					that
+					perfect position so we can obtain be best images of your little one. We may send you for a walk, eat
+					a
+					snack, or perhaps drink a sugary beverage in the hopes it will prompt your baby to move into a
+					favorable
+					position so we can obtain the best images of your baby and provide precious memories of a lifetime.
+					That
+					is our #1 goal!</p>
+
+				<h3>SPA SERVICES APPOINTMENTS</h3>
+				<p>Please arrive 10-15 minutes prior to your scheduled service so we can get you checked in and have all
+					the
+					required paperwork completed. You don’t want to use up any of your spa service time filling out
+					paperwork, so please arrive early.</p>
+
+				<h3>LATE ARRIVALS</h3>
+				<p>If you arrive late, your session may be shortened in order to accommodate others whose appointments
+					may
+					follow yours. Depending on how late you arrive, we will then determine if there is enough time
+					remaining
+					to start your session. Regardless of the length of the treatment actually given, you will be
+					responsible
+					for the FULL cost of the session. Out of respect and consideration to staff and other paying
+					customers,
+					plan accordingly and please (BE ON TIME)</p>
+
+				<hr class="major" />
+
+				<!--<h3 class="centered">Forms</h3>
+				<ul class="actions special">
+					<li><a href="https://forms.vagaro.com/us03/formresponse/hDHnhSN4UmNqHOT3q425xPKOU7zZ4ByaAj5kBxtdJoz0"
+							class="button primary wide scrolly">COVID-19 Consent Form</a></li>
+					<li><a href="https://forms.vagaro.com/5f9c82988c0e522468db8100"
+							class="button primary wide scrolly">Images and Return Visits</a></li>
+
+				</ul>
+
+				<ul class="actions special">
+					<li><a href="https://forms.vagaro.com/5f9c80e94e91d90e0c145f45"
+							class="button primary wide scrolly">Ultrasound Client Form</a></li>
+					<li><a href="index.html#six" class="button primary accent wide scrolly">Contact Us</a></li>
+				</ul>
+
+				<hr class="major" style="margin-bottom: 0;" />-->
+			</div>
+
+			<!-- Section -->
+			<section class="wrapper style1" id="resources">
+				<div class="inner">
+					<header class="major special">
+						<h1>Resources</h1>
+						<p style="margin-bottom: 2em;">Need resources? Follow the links</br>
+							below to find out more!</p>
+					</header>
+					<div>
+						<ul class="actions special">
+							<li><a href="https://sarazarrella.com/" class="button wide">Sarah Zarrella</a></li>
+							<li><a href="https://sarazarrella.com/rockyourbooth" class="button wide">Rock
+									Your Booth</a></li>
+
+						</ul>
+						<ul class="actions special">
+							<li><a href="https://threelollies.com/" class="button wide">Three Lollies</a></li>
+							<li><a href="https://blisslets.com/" class="button wide">Blisslets</a></li>
+						</ul>
+					</div>
+					<hr class="major" />
+
+					<div class="image align-center"><a style="border-bottom: none;" href="https://www.enfamil.com/"><img
+								src="images/enfamil.png" alt="" /></a></div>
+				</div>
+			</section>
+		</section>
+
+
+	</div>
+
+	<!-- Footer -->
+	<section id="footer">
+		<ul class="icons">
+			<li><a href="https://www.facebook.com/BabiesandBelliesUltrasound/"
+					class="icon alt brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+			<li><a href="https://www.instagram.com/babiesandbellies3d/" class="icon alt brands fa-instagram"><span
+						class="label">Instagram</span></a></li>
+			<li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=mrsart150@gmail.com&su=Subject&body=Body"
+					class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+			<li><a href="tel:4017372229"
+					onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
+					class="icon alt solid fa-phone"><span class="label">Phone</span></a></li>
+		</ul>
+		<div class="align-center">
+			<p id="fee">All Credit Card purchases will require a 2.9% Credit Card
+				Processing Fee.
+				This processing fee will apply to all deposits previously taken at time of scheduling.
+				<br>Thank you,
+				Babies & Bellies Management
+			</p>
+		</div>
+		<p class="copyright">
+			&copy; <a href="https://www.webundefined.com/">Web Undefined, LLC</a>. All rights reserved.
+		</p>
+	</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

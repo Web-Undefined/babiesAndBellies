@@ -1,0 +1,516 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Babies & Bellies</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="shortcut icon" type="image/png" href="images/tabIcon.png" />
+
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<button id="trans-btn" class="translate-btn small">Translate</button>
+
+		<!-- Translate Modal -->
+		<div id="translateModal" class="modal">
+
+			<!-- Modal content -->
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<div class="translate-container">
+					<div id="google_translate_element"></div>
+					<script>
+						function googleTranslateElementInit() {
+							new google.translate.TranslateElement({
+								includedLanguages: 'en,es'
+							}, 'google_translate_element');
+						}
+					</script>
+					<script
+						src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+				</div>
+			</div>
+		</div>
+
+		<script>// Get the modal
+			var modal = document.getElementById("translateModal");
+
+			// Get the button that opens the modal
+			var btn = document.getElementById("trans-btn");
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks on the button, open the modal
+			btn.onclick = function () {
+				modal.style.display = "block";
+			}
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function () {
+				modal.style.display = "none";
+			}
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function (event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			}</script>
+
+		<!-- Header -->
+		<section id="header">
+
+			<!-- Logo -->
+			<a href="index.html" class="logo"><strong>Babies</strong> & Bellies</a>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li class="current">
+						<a href="packages.html" class="icon solid fa-angle-down">Ultrasound Packages</a>
+						<ul>
+							<li><a href="packages.html" class="subMenu">2D/3D/4D Ultrasound</a></li>
+							<li><a href="#specials" class="subMenu scrolly">Specials</a></li>
+							<li><a href="#faq" class="subMenu scrolly">FAQ</a></li>
+							<li><a href="best-timing.html" class="subMenu">Pregnancy Calendar</a></li>
+							<li><a href="best-timing.html#peek" class="subMenu">Ideal Time To Peek</a></li>
+							<li><a href="gallery.html" class="subMenu">Gallery</a></li>
+						</ul>
+					</li>
+					<li><a href="massage.html">Massage Services</a></li>
+					<li>
+						<a href="forms-policies.html" class="icon solid fa-angle-down">Forms/Policies</a>
+						<ul>
+							<li><a href="forms-policies.html#resources" class="subMenu">Resources</a></li>
+						</ul>
+					</li>
+					<li><a href="index.html#six" class="scrolly">Contact Us</a></li>
+				</ul>
+			</nav>
+
+		</section>
+
+		<!-- 3D/4D Packages -->
+
+		<section class="wrapper style1" style="background-image: linear-gradient(white, #f1f1f1);">
+			<div class="inner">
+				<header class="major special">
+					<h1>3D/4D Ultrasound Packages</h1>
+				</header>
+				<div class="packages" style="padding-bottom: 0;">
+					<div class="innerPack">
+						<div class="rowPack">
+							<div class="colPackBig">
+								<div class="package manilla">
+									<div class="name"><b>Baby Bundle $399 (Most Popular!) $573 Value!</b></div>
+									<div class="borderPack"></div>
+									<p class="smallSpecial">“Watch Me Grow” Series of 4 Ultrasound Sessions (Twin $449)
+									</p>
+									<p class="smallSpecial">A great value to watch your baby grow throughout your
+										pregnancy journey!</p>
+									<p class="smallSpecial"><b>1st Visit 15-23 weeks (Trucks or Tiaras)</b></p>
+									<p class="smallSpecial"><b>2nd Visit 24-26 weeks (Sweet Pea)</b></p>
+									<p class="smallSpecial"><b>3rd Visit 28-32 weeks (Sweet Pea)</b></p>
+									<p class="smallSpecial"><b>4th Visit 33-40 Weeks (Ready to Pop)</b></p>
+									<p class="smallSpecial">Mommy gift bag at session #1
+										</br>Free Heartbeat stuffed
+										animal of your choice at session #2
+										</br>Free Video clips at each session
+										</br>“Link” of digital photo album sent via email or text @ each session
+										</br>Add photo pkg for $35 (10-15 black & white prints and 3 color prints) @
+										each session</p>
+								</div>
+							</div>
+						</div>
+						<div class="rowPack">
+							<div class="colPackBig">
+								<div class="package manilla">
+									<div class="name"><b>Sneak-a-Peek $99 (Twin $149)</b></div>
+									<div class="borderPack"></div>
+									<p class="smallSpecial">Offered at <b>24</b> weeks, Best time to book is after 26
+										weeks
+									</p>
+									<p class="smallSpecial">10 Minute Session
+										</br>See and hear your baby’s heartbeat
+										</br>“Link” of digital photo album sent via email or text
+										</br>Add photo pkg for $15 (5-10 black & white prints and 2 color prints)
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="rowPack">
+							<div class="colPack">
+								<div class="package manilla">
+									<div class="name"><b>Sweet Pea $139 (Twin $189)</b></div>
+									<div class="borderPack"></div>
+									<p class="smallSpecial">Offered at <b>24</b> weeks, Best time to book is after 26
+										weeks
+									</p>
+									<p class="smallSpecial">15 Minute Session
+										</br>See and hear your baby’s heartbeat
+										</br>“Link” of digital photo album sent via email or text
+										</br>Add photo pkg for $20 (10-15 black & white prints and 3 color
+										prints)</br></br>
+									</p>
+								</div>
+							</div>
+							<div class="colPack">
+								<div class="package manilla">
+									<div class="name"><b>Simply Sweet $179 (Twin $229)</b></div>
+									<div class="borderPack"></div>
+									<p class="smallSpecial">Offered at <b>24</b> weeks, Best time to book is after 26
+										weeks
+									</p>
+									<p class="smallSpecial">20 Minute Session
+										</br>See and hear your baby’s heartbeat
+										</br>2-3 (4D) video clips of baby’s movements
+										</br>“Link” of digital photo album sent via email or text
+										</br>Add photo pkg for $25 (15-20 black & white prints and 4 color prints)
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- 2D Packages -->
+
+		<section class="wrapper style1">
+			<div class="inner">
+				<header class="major special">
+					<h1>2D Ultrasound Packages</h1>
+				</header>
+				<div class="packages">
+					<div class="innerPack">
+						<div class="rowPack">
+							<div class="colPackBig">
+								<div class="package manilla">
+									<div class="name"><b>Baby Bundle $299 (Most Popular!) $415 Value!</b></div>
+									<div class="borderPack"></div>
+									<p class="smallSpecial">*All 2D packages include complimentary 3D quick peek if
+										the
+										baby is in a favorable position*
+									</p>
+									<p class="smallSpecial">A great value to watch your baby grow throughout your
+										pregnancy journey!</p>
+									<p class="smallSpecial"><b>1st Visit 15-23 weeks (Trucks or Tiaras)</b></p>
+									<p class="smallSpecial"><b>2nd Visit 24-32 weeks (Just the Basics)</b></p>
+									<p class="smallSpecial"><b>3rd Visit 24-32 weeks (Just the Basics)</b></p>
+									<p class="smallSpecial"><b>4th Visit 33-40 weeks (Ready to Pop)</b></p>
+									<p class="smallSpecial">Mommy gift bag at session #1
+										</br>Free Heartbeat stuffed
+										animal of your choice at session #2
+										</br>Free 3D quick peek at all sessions
+										</br>Free Video clips at all sessions
+										</br>“Link” of digital photo album sent via email or text @ each session
+										</br>Add photo pkg for $20 (10-15 black & white prints) @ each session</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="rowPack">
+							<div class="colPack">
+								<div class="package manilla">
+									<div class="name"><b>Peace of Mind $75 (Twin $105)</b></div>
+									<div class="borderPack"></div>
+									<p class="smallSpecial">Offered at <b>9-14</b> weeks
+									</p>
+									<p class="smallSpecial">10 Minute Session
+										</br>See and hear your baby’s heartbeat
+										</br>Estimate baby’s gestational age
+										</br>“Link” of digital photo album sent via email or text
+										</br>Add photo pkg for $10 (5-10 black & white prints)
+									</p>
+								</div>
+							</div>
+							<div class="colPack">
+								<div class="package manilla">
+									<div class="name"><b>Just the Basics $75 (Twin $105)</b></div>
+									<div class="borderPack"></div>
+									<p class="smallSpecial">Offered at <b>24-32</b> weeks
+									</p>
+									<p class="smallSpecial">10 Minute Session
+										</br>See and hear your baby’s heartbeat
+										</br>Complimentary 3D quick peek
+										</br>“Link” of digital photo album sent via email or text
+										</br>Add photo pkg for $10 (5-10 black & white prints)
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="rowPack">
+							<div class="colPack">
+								<div class="package manilla">
+									<div class="name"><b>Trucks or Tiaras $75 (Twin $105)</b></div>
+									<div class="borderPack"></div>
+									<p class="smallSpecial">Offered at <b>15+</b> Weeks
+									</p>
+									<p class="smallSpecial">10 Minute Session
+										</br>See and hear your baby’s heartbeat
+										</br>Gender Determination
+										</br>Complimentary 3D quick peek
+										</br>Free return visit if we are unable to determine gender
+										</br>“Link” of digital photo album sent via email or text
+										</br>Add photo pkg for $20 (10-15 black & white prints and 3 color prints)
+									</p>
+								</div>
+							</div>
+							<div class="colPack">
+								<div class="package manilla">
+									<div class="name"><b>Ready to Pop $75 (Twin $105)</b></div>
+									<div class="borderPack"></div>
+									<p class="smallSpecial">Offered between <b>33-40</b> Weeks
+									</p>
+									<p class="smallSpecial">10 Minute Session
+										</br>See and hear your baby’s heartbeat
+										</br>Estimate baby’s weight
+										</br>Babies Position
+										</br>Complimentary 3D quick peek
+										</br>“Link” of digital photo album sent via email or text
+										</br>Add photo pkg for $10 (5-10 black & white prints)
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="rowPack">
+							<div class="colPackBig">
+								<div class="package manilla">
+									<div class="name"><b>Heartbeat Stuffed Animal 2D Package $50 (Twin $85)</b></div>
+									<div class="borderPack"></div>
+									<p class="smallSpecial">Offered between <b>15-40</b> Weeks
+									</p>
+									<p class="smallSpecial">5 Minute Session
+										</br>See and hear your baby’s heartbeat
+										</br>Heartbeat stuffed animal of your choice with the recording of your baby’s
+										heartbeat
+										</br>“Link” of digital photo album sent via email or text
+										</br>Add photo pkg for $5 (5 black & white prints)
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Specials -->
+
+		<section class="wrapper style1" id="specials">
+			<div class="inner">
+				<header class="major special">
+					<h1>Specials</h1>
+				</header>
+				<div class="testimonials">
+					<div class="innerTest">
+						<div class="rowTest">
+							<div class="colTest">
+								<div class="testimonial">
+									<div class="name"><b>Monday</b></div>
+									<div class="borderTest"></div>
+									<p><b>Free HD Live</b> with any 3D/4D Ultrasound Package. </br>($35.00 Savings)</p>
+									<p class="smallSpecial">HD Live is a High Definition 4D! The images are more of a
+										flesh-tone color rather
+										than the amber/sepia traditional 3D/4D color. HD Live is unlike anything you
+										have seen in the prenatal imaging industry.</p>
+								</div>
+							</div>
+							<div class="colTest">
+								<div class="testimonial">
+									<div class="name"><b>Tuesday</b></div>
+									<div class="borderTest"></div>
+									<p><b>Free Photo Package</b> included with any 2D or 3D Ultrasound Package ($10-$25
+										Savings!)</br></br></p>
+								</div>
+							</div>
+							<div class="colTest">
+								<div class="testimonial">
+									<div class="name"><b>Wednesday</b></div>
+									<div class="borderTest"></div>
+									<p><b>2D</b> Video clips (2-5) </br>($20.00 Savings)</p>
+									<p><b>4D</b> Video clips (2-5) </br>($35.00 Savings)</p>
+									<p class="smallSpecial">We promise to make every effort to obtain the best possible
+										video clips.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="less-bottom-pad">
+					<p class="centered"><b>Daily Specials cannot be combined with any other promotion (coupons or other
+							discounts).</b></p>
+					<p class="centered">2D/3D Watch Me Grow packages and 2D Heartbeat Stuffed Animal do not qualify for
+						Daily Specials</p>
+					<p class="centered">A redo visits cannot be scheduled if baby isn’t in a favorable position for any
+						Daily Specials.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- FAQ -->
+		<section class="wrapper style1" id="faq">
+			<div class="inner">
+				<header class="major special">
+					<h1>FAQ</h1>
+				</header>
+				<div class="accordian">
+					<ul>
+						<li>
+							<input type="checkbox" checked>
+							<i></i>
+							<h2>Do I need a full bladder for the ultrasound?</h2>
+							<p><b>No</b>, you don’t need a full bladder! We do however recommend staying hydrated to get
+								the
+								best possible images of your baby. Make sure you drink plenty of clear fluids in the
+								days (at least 5) leading up to your scheduled appointment (as you should already be
+								doing anyway). This will help your baby’s amniotic fluid levels. More fluid = better
+								images of your baby. We recommend at least 40oz daily, no soda or caffeine. Caffeine
+								dehydrates the body and creates a negative effect on your efforts. Soda tends to make
+								the fluid look hazy and murky. It doesn’t do much good to only drink water the night
+								before or the day of your ultrasound appointment.</p>
+						</li>
+						<li>
+							<input type="checkbox" checked>
+							<i></i>
+							<h2>Will I always get a beautiful picture of my baby?</h2>
+							<p><b>Usually, but not always</b>. There are many factors that may prevent the sonographer
+								from
+								obtaining perfect images which include:
+								</br><b>(1)</b> The position of the baby. Many babies cooperate with lots of open face
+								views,
+								smiles, and yawns. Others, however, hide behind their feet, hands, and the placenta.
+								Other camera shy babies face the mother’s spine, giving us a great view of their back.
+
+								</br><b>(2)</b> The location of the placenta plays an important role in obtaining
+								perfect
+								images as
+								well.
+								Anterior placentae tend to get in the way of viewing the baby’s face.
+
+								</br><b>(3)</b> Low amniotic fluid and hazy fluid will limit the visibility of the baby.
+								A clear pocket of fluid in front of the baby’s face is necessary to visualize the baby.
+
+								</br><b>(4)</b> Obesity. If Mom is on the larger side images of your baby will be
+								difficult to
+								obtain because the sound waves must travel through Mom’s body first to reach the baby.
+								The sound waves become weaker the farther they have to travel.
+
+								</br><b>(5)</b> Previous C Section
+
+								</br><b>(6)</b> Tummy Tuck
+
+								</br><b>(7)</b> Fibroids</p>
+						</li>
+						<li>
+							<input type="checkbox" checked>
+							<i></i>
+							<h2>Does this take the place of an ultrasound at my doctors office?</h2>
+							<p><b>ABSOLUTELY NOT!</b> Women seeking an elective prenatal ultrasound with Babies &
+								Bellies must
+								already be receiving treatment with a healthcare provider for prenatal care and have
+								already undergone a medical diagnostic ultrasound.</p>
+						</li>
+						<li>
+							<input type="checkbox" checked>
+							<i></i>
+							<h2>Is it safe? Are there any risks to me or my baby?</h2>
+							<p>Extensive studies over 30 years have found that <b>
+									ultrasound has not been shown to cause
+									any harm to the mother or the baby
+								</b>. Routine scanning of all pregnancies is not normal
+								throughout the United States.</p>
+						</li>
+						<li>
+							<input type="checkbox" checked>
+							<i></i>
+							<h2>Do I need an appointment?</h2>
+							<p><b>Yes</b>, appointments are necessary for all of our services</p>
+						</li>
+						<li>
+							<input type="checkbox" checked>
+							<i></i>
+							<h2>Can I bring my family and friends?</h2>
+							<p><b>Yes!</b> In fact, we encourage our clients to invite family and friends to attend this
+								joyous
+								and wonderful experience. Bonding doesn’t just happen with Mom and Dad..</p>
+						</li>
+						<li>
+							<input type="checkbox" checked>
+							<i></i>
+							<h2>Are elective 2D/3D/4D/HD ultrasounds covered by insurance?</h2>
+							<p>Some HSA flexible spending accounts that provide you with a VISA or MasterCard to use for
+								medical expenses will cover our ultrasounds. You should call your insurance provider
+								prior to your appointment to verify 3D ultrasounds are covered under your HSA plan. We
+								accept cash, Visa, MasterCard, American Express, Discover Card, and debit cards. We do
+								not accept checks.</p>
+						</li>
+						<li>
+							<input type="checkbox" checked>
+							<i></i>
+							<h2>I see HD-Live offered as an upgrade, what is HD-Live?</h2>
+							<p>HD Live is a High Definition 4D!!! The images are more of a flesh-tone color rather then
+								the amber/sepia traditional 3D/4D color. HD Live is unlike anything you have seen in the
+								prenatal imaging industry.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<section id="footer">
+			<ul class="icons">
+				<li><a href="https://www.facebook.com/BabiesandBelliesUltrasound/"
+						class="icon alt brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="https://www.instagram.com/babiesandbellies3d/" class="icon alt brands fa-instagram"><span
+							class="label">Instagram</span></a></li>
+				<li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=mrsart150@gmail.com&su=Subject&body=Body"
+						class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+				<li><a href="tel:4017372229"
+						onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
+						class="icon alt solid fa-phone"><span class="label">Phone</span></a></li>
+			</ul>
+			<div class="align-center">
+				<p id="fee">All Credit Card purchases will require a 2.9% Credit Card
+					Processing Fee.
+					This processing fee will apply to all deposits previously taken at time of scheduling.
+					<br>Thank you,
+					Babies & Bellies Management
+				</p>
+			</div>
+			<p class="copyright">
+				&copy; <a href="https://www.webundefined.com/">Web Undefined, LLC</a>. All rights reserved.
+			</p>
+		</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

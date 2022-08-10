@@ -1,0 +1,349 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>Babies & Bellies</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="shortcut icon" type="image/png" href="images/tabIcon.png" />
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<button id="trans-btn" class="translate-btn small">Translate</button>
+
+		<!-- Translate Modal -->
+		<div id="translateModal" class="modal">
+
+			<!-- Modal content -->
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<div class="translate-container">
+					<div id="google_translate_element"></div>
+					<script>
+						function googleTranslateElementInit() {
+							new google.translate.TranslateElement({
+								includedLanguages: 'en,es'
+							}, 'google_translate_element');
+						}
+					</script>
+					<script
+						src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+				</div>
+			</div>
+		</div>
+
+		<script>// Get the modal
+			var modal = document.getElementById("translateModal");
+
+			// Get the button that opens the modal
+			var btn = document.getElementById("trans-btn");
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks on the button, open the modal
+			btn.onclick = function () {
+				modal.style.display = "block";
+			}
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function () {
+				modal.style.display = "none";
+			}
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function (event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			}</script>
+
+		<!-- Header -->
+		<section id="header" class="alt">
+
+			<!-- Logo -->
+			<a href="index.html" class="logo"><strong>Babies</strong> & Bellies</a>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li class="current"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li>
+						<a href="packages.html" class="icon solid fa-angle-down">Ultrasound Packages</a>
+						<ul>
+							<li><a href="packages.html" class="subMenu">2D/3D/4D Ultrasound</a></li>
+							<li><a href="packages.html#specials" class="subMenu">Specials</a></li>
+							<li><a href="packages.html#faq" class="subMenu">FAQ</a></li>
+							<li><a href="best-timing.html" class="subMenu">Pregnancy Calendar</a></li>
+							<li><a href="best-timing.html#peek" class="subMenu">Ideal Time To Peek</a></li>
+							<li><a href="gallery.html" class="subMenu">Gallery</a></li>
+						</ul>
+					</li>
+					<li><a href="massage.html">Massage Services</a></li>
+					<li>
+						<a href="forms-policies.html" class="icon solid fa-angle-down">Forms/Policies</a>
+						<ul>
+							<li><a href="forms-policies.html#resources" class="subMenu">Resources</a></li>
+						</ul>
+					</li>
+					<li><a href="#six" class="scrolly">Contact Us</a></li>
+				</ul>
+			</nav>
+
+		</section>
+
+		<!-- Banner -->
+		<section id="banner">
+			<div class="content">
+				<header class="major special">
+					<div class="image"><img id="landingLogo" src="images/logo.png" alt="" /></div>
+				</header>
+
+				<ul class="actions special">
+					<li><a href="book-now.html" class="button primary wide scrolly">Schedule Now</a></li>
+					<li><a href="tel:4017372229"
+							onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
+							class="button primary wide scrolly">Call Now</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Section -->
+		<section class="wrapper style1" id="first">
+			<div class="inner">
+				<header class="major special">
+					<h2>COVID-19 Guidelines</h2>
+					<button class="collapsible">Expand <i id="expandIcon" class="fas fa-angle-down fa-lg"></i></button>
+
+					<div class="expandableContent" style="padding-top: 1em;">
+						<p class="smaller-font" style="margin-bottom: 2em;">Welcome to Babies & Bellies 3D/4D Ultrasound
+							Studio. We hope this letter
+							finds you and your
+							family in good health. We continue to implement safety measures to protect you, your baby
+							and
+							your guests during your visit. Nothing is more important to us than you. If you or your
+							guests
+							are experiencing ANY symptoms such as cough, body aches or have a fever, please STAY AT HOME
+							and
+							reschedule your appointment. If anyone in your party has traveled outside of the
+							state/county
+							within the last 14 days, please let us know at time of scheduling. If anyone in your party
+							is
+							not vaccinated they must wear a mask at all times while on the premises.</br></br>
+
+							Our waiting room is now open and clients are allowed to bring up to <b>9 guests</b> to each
+							session.
+							<b>Groups no larger than 10 people per ultrasound session</b>. Facetime is also allowed
+							during
+							all
+							sessions.</br></br>
+
+							<b>For your convenience we offer online scheduling</b> due to high call volume. All
+							appointments
+							booked online as well as over the phone must be paid in full at time of scheduling using a
+							credit or debit card until further notice.</br></br>
+
+							Please remember your ultrasound session at Babies & Bellies does not take the place of a
+							diagnostic ultrasound scan. You will be asked to provide the name and phone number of your
+							OB/GYN at the time of your service. Sometimes babies are more active after mom has a cold
+							beverage, so it’s best to drink a juice or soda (if you can have sugar of course) 10 minute
+							prior to your appointment time. In addition to the aforesaid precautions, the following
+							safeguards have been put in place to maintain a safe and healthy environment for you, your
+							family and our staff.</br></br>
+
+							- Sanitizing all surfaces and high-volume areas each morning and night as well as in between
+							each
+							- ultrasound session.</br>
+							- Using medical-grade disinfecting products.</br>
+							- Offering hand sanitizer stations.</br>
+							- Screening all staff members prior to their work shift.</br></br>
+
+							We appreciate your continued patience, understanding and flexibility and look forward to
+							seeing
+							you soon. As always, thank you for your continued support. We value your trust and
+							loyalty!
+						</p>
+						<p class="smaller-font" style="text-align: left;">Sincerely,</br>
+
+							Babies & Bellies 3D/4D Ultrasound Family</p>
+					</div>
+
+					<!-- Expandable Row Script -->
+
+					<script>
+						var coll = document.getElementsByClassName("collapsible");
+						var icon = document.getElementById("expandIcon");
+						var i;
+
+						for (i = 0; i < coll.length; i++) {
+							coll[i].addEventListener("click", function () {
+								this.classList.toggle("active");
+								icon.classList.toggle('fa-angle-down');
+								icon.classList.toggle('fa-angle-up');
+								var content = this.nextElementSibling;
+								if (content.style.maxHeight) {
+									content.style.maxHeight = null;
+								} else {
+									content.style.maxHeight = content.scrollHeight + "px";
+								}
+							});
+						}
+					</script>
+
+				</header>
+				<div class="spotlights">
+					<section>
+						<div class="image"><img src="images/6square.png" alt="" /></div>
+						<div class="content">
+							<header class="major">
+								<h3>Babies & Bellies</h3>
+							</header>
+							<p>We are a charming prenatal and postnatal wellness spa, conveniently located in Warwick,
+								Rhode Island. We specialize in many areas pertaining to motherhood and beyond, from
+								3D/4D imaging to therapeutic massage, yoga, and education.</p>
+							<ul class="actions special">
+								<li style="display: block; margin-right: auto;"><a href="book-now.html"
+										class="button primary wide scrolly">Schedule Now</a></li>
+							</ul>
+						</div>
+					</section>
+					<section>
+						<div class="image"><img src="images/4d-ultra-sound-054-.png" alt="" /></div>
+						<div class="content">
+							<header class="major">
+								<h3>2D/3D/4D Ultrasound</h3>
+							</header>
+							<p>We offer numerous services to empower, educate, and pamper you along the way. As the
+								physical and emotional needs of your pregnancy change, let Babies & Bellies be there for
+								you! Enjoy your journey!</p>
+							<ul class="actions special">
+								<li style="display: block; margin-left: auto;"><a href="packages.html"
+										class="button primary wide scrolly">Ultrasound Packages</a></li>
+							</ul>
+						</div>
+					</section>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section -->
+		<section class="wrapper style2 alt">
+			<div class="inner">
+				<header class="major special">
+					<h2>Your Pregnancy Journey</h2>
+					<p>We offer many entertainment 2D/3D & 4D ultrasound packages</br> to fit every budget and we look
+						forward to welcoming you!</p>
+				</header>
+				<div class="features">
+					<ul>
+						<li>
+							<span class="icon alt major fa-calendar"></span>
+							<h3>Schedule Online</h3>
+							<p>Nothing's easier than scheduling online, book today!</p>
+						</li>
+						<li>
+							<span class="icon alt major solid fa-laptop"></span>
+							<h3>Digital Photos</h3>
+							<p>See your baby easily on your phone or laptop with our digital photo album</p>
+						</li>
+					</ul>
+					<span class="image"><img src="images/3D-Image-for-website.png" alt="" /></span>
+					<ul>
+						<li>
+							<span class="icon alt major fa-star"></span>
+							<h3>Professionals</h3>
+							<p>We are a group of healthcare professionals eager to serve you and your family</p>
+						</li>
+						<li>
+							<span class="icon alt major fa-heart"></span>
+							<h3>With Care</h3>
+							<p>Our intention is to provide you with a warm and inviting space</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- CTA -->
+		<section class="wrapper style1" id="six">
+			<div class="inner">
+				<header class="major special">
+					<h2 class="centered">Contact Us</h2>
+					<p class="centered">Fill out the form below and we will get back to you as soon as possible</p>
+				</header>
+				<section>
+					<form method="post" action="#">
+						<div class="row gtr-uniform">
+							<div class="col-6 col-12-xsmall">
+								<input type="text" name="name" id="name" value="" placeholder="Name" />
+							</div>
+							<div class="col-6 col-12-xsmall">
+								<input type="email" name="email" id="email" value="" placeholder="Email" />
+							</div>
+							<!-- Break -->
+							<div class="col-12">
+								<textarea name="message" id="message" placeholder="Enter your message"
+									rows="6"></textarea>
+							</div>
+							<!-- Break -->
+							<div class="col-12">
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="primary" /></li>
+									<li><input type="reset" value="Reset" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</section>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<section id="footer">
+			<ul class="icons">
+				<li><a href="https://www.facebook.com/BabiesandBelliesUltrasound/"
+						class="icon alt brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="https://www.instagram.com/babiesandbellies3d/" class="icon alt brands fa-instagram"><span
+							class="label">Instagram</span></a></li>
+				<li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=mrsart150@gmail.com&su=Subject&body=Body"
+						class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+				<li><a href="tel:4017372229"
+						onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
+						class="icon alt solid fa-phone"><span class="label">Phone</span></a></li>
+			</ul>
+			<div class="align-center">
+				<p id="fee">All Credit Card purchases will require a 2.9% Credit Card
+					Processing Fee.
+					This processing fee will apply to all deposits previously taken at time of scheduling.
+					<br>Thank you,
+					Babies & Bellies Management
+				</p>
+			</div>
+			<p class="copyright">
+				&copy; <a href="https://www.webundefined.com/">Web Undefined, LLC</a>. All rights reserved.
+			</p>
+		</section>
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

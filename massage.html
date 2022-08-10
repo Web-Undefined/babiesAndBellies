@@ -1,0 +1,199 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Babies & Bellies</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="shortcut icon" type="image/png" href="images/tabIcon.png" />
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<button id="trans-btn" class="translate-btn small">Translate</button>
+
+		<!-- Translate Modal -->
+		<div id="translateModal" class="modal">
+
+			<!-- Modal content -->
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<div class="translate-container">
+					<div id="google_translate_element"></div>
+					<script>
+						function googleTranslateElementInit() {
+							new google.translate.TranslateElement({
+								includedLanguages: 'en,es'
+							}, 'google_translate_element');
+						}
+					</script>
+					<script
+						src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+				</div>
+			</div>
+		</div>
+
+		<script>// Get the modal
+			var modal = document.getElementById("translateModal");
+
+			// Get the button that opens the modal
+			var btn = document.getElementById("trans-btn");
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks on the button, open the modal
+			btn.onclick = function () {
+				modal.style.display = "block";
+			}
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function () {
+				modal.style.display = "none";
+			}
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function (event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			}</script>
+
+		<!-- Header -->
+		<section id="header">
+
+			<!-- Logo -->
+			<a href="index.html" class="logo"><strong>Babies</strong> & Bellies</a>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li>
+						<a href="packages.html" class="icon solid fa-angle-down">Ultrasound Packages</a>
+						<ul>
+							<li><a href="packages.html" class="subMenu">2D/3D/4D Ultrasound</a></li>
+							<li><a href="packages.html#specials" class="subMenu">Specials</a></li>
+							<li><a href="packages.html#faq" class="subMenu">FAQ</a></li>
+							<li><a href="best-timing.html" class="subMenu">Pregnancy Calendar</a></li>
+							<li><a href="best-timing.html#peek" class="subMenu">Ideal Time To Peek</a></li>
+							<li><a href="gallery.html" class="subMenu">Gallery</a></li>
+						</ul>
+					</li>
+					<li class="current"><a href="massage.html">Massage Services</a></li>
+					<li>
+						<a href="forms-policies.html" class="icon solid fa-angle-down">Forms/Policies</a>
+						<ul>
+							<li><a href="forms-policies.html#resources" class="subMenu">Resources</a></li>
+						</ul>
+					</li>
+					<li><a href="index.html#six" class="scrolly">Contact Us</a></li>
+				</ul>
+			</nav>
+
+		</section>
+
+		<!-- Section -->
+		<section class="wrapper style1" style="background-image: linear-gradient(#f1f1f1, white);">
+			<div class="inner">
+				<header class="major special">
+					<h1>Massage by Alanna Fernandes</h1>
+					<p>Here to help assist you in your healing process</p>
+				</header>
+				<!--<div class="image main"><img src="images/pic04.jpg" alt="" /></div>-->
+				<p>Hi, my name is Alanna, and I have been a Licensed Massage Therapist for a decade. I am located in the
+					office of Babies and Bellies 3D/4D Ultrasound Studio and Prenatal Wellness spa.. Appointments are
+					made directly through me which you can text, call, or book yourself online at
+					vagaro.com/alannafernandes ! If there is any day or time you do not see listed on my Vagaro page,
+					please contact me at (401) 472-4252 as there might be something available. Each service price listed
+					is standard for any therapeutic, deep tissue, or prenatal massage.</p>
+				<hr class="major" />
+				<div class="packages">
+					<div class="innerPack">
+						<div class="rowPack">
+							<div class="colPack">
+								<div class="package manilla green-package">
+									<div class="name"><b>Massage Service Hours</b></div>
+									<div class="borderPack"></div>
+									<p class="smallSpecial">Sunday: CLOSED
+										</br>Monday: 10:00 AM – 4:30 PM
+										</br>Tuesday: 10:00 AM – 7:00 PM
+										</br>Wednesday: 10:00 AM – 7:00 PM
+										</br>Thursday: 10:00 AM – 7:00 PM
+										</br>Friday: 10:00 AM – 7:00 PM
+										</br>Saturday: 10:30 AM – 3:00 PM</br></br></br>
+									</p>
+								</div>
+							</div>
+							<div class="colPack">
+								<div class="package manilla green-package">
+									<div class="name"><b>Massage Price List</b></div>
+									<div class="borderPack"></div>
+									<p class="smallSpecial">30 min Therapeutic Starting at $50
+										</br>45 min Therapeutic Starting at $65
+										</br>1 Hour Therapeutic Starting at $85
+										</br>90 min Therapeutic Starting at $115
+										</br>1 Hour Prenatal Starting at $85
+										</br>90 min Prenatal Starting at $115
+									</p>
+									<div class="name"><b>Add on:</b></div>
+									<p class="smallSpecial">Hot Stones – $20
+										</br>Gua Sha – $15
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="image main"><img id="alanna" src="images/Alanna-Massage.png" alt="" /></div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<section id="footer">
+			<ul class="icons">
+				<li><a href="https://www.facebook.com/BabiesandBelliesUltrasound/"
+						class="icon alt brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+				<li><a href="https://www.instagram.com/babiesandbellies3d/" class="icon alt brands fa-instagram"><span
+							class="label">Instagram</span></a></li>
+				<li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=mrsart150@gmail.com&su=Subject&body=Body"
+						class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+				<li><a href="tel:4017372229"
+						onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});"
+						class="icon alt solid fa-phone"><span class="label">Phone</span></a></li>
+			</ul>
+			<div class="align-center">
+				<p id="fee">All Credit Card purchases will require a 2.9% Credit Card
+					Processing Fee.
+					This processing fee will apply to all deposits previously taken at time of scheduling.
+					<br>Thank you,
+					Babies & Bellies Management
+				</p>
+			</div>
+			<p class="copyright">
+				&copy; <a href="https://www.webundefined.com/">Web Undefined, LLC</a>. All rights reserved.
+			</p>
+		</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
