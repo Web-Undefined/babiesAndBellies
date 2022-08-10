@@ -5326,3 +5326,7 @@ body {
 .manilla {
     background-color: #fefffa;
 }
+
+br {
+    display: block !important;
+}
