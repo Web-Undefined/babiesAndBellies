@@ -5330,3 +5330,7 @@ body {
 br {
     display: block !important;
 }
+
+.small-header {
+    font-size: 0.5em;
+}
