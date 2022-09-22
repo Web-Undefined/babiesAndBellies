@@ -4456,6 +4456,9 @@ body.is-navPanel-visible #navPanel {
 .less-margin {
     margin-bottom: 1em !important;
 }
+.less-margin-2 {
+    margin-bottom: 2em !important;
+}
 #schedule-container {
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 1em;
@@ -5333,4 +5336,27 @@ br {
 
 .small-header {
     font-size: 0.5em;
+}
+
+.flex {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex > p {
+    margin: auto 0;
+    padding: 0 1em;
+    color: black !important;
+}
+
+@media screen and (max-width: 558px) {
+    .flex > p {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 405px) {
+    .flex > p {
+        font-size: 10px;
+    }
 }
