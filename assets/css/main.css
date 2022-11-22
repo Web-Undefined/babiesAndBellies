@@ -5350,6 +5350,24 @@ br {
     color: black !important;
 }
 
+.flexed-row {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media screen and (max-width: 785px) {
+    .flexed-row {
+        flex-direction: column;
+    }
+    .margin-top {
+        margin-top: 2em;
+    }
+    #cbr {
+        max-width: 23em;
+    }
+}
+
 @media screen and (max-width: 558px) {
     .flex > p {
         font-size: 12px;
@@ -5359,4 +5377,10 @@ br {
     .flex > p {
         font-size: 10px;
     }
+}
+
+.privacy {
+    font-size: 1.75em;
+    text-align: center;
+    margin-top: 2em;
 }
