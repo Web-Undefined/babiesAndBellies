@@ -5384,3 +5384,7 @@ br {
     text-align: center;
     margin-top: 2em;
 }
+
+.smaller {
+    font-size: 20px !important;
+}
