@@ -5388,3 +5388,11 @@ br {
 .smaller {
     font-size: 20px !important;
 }
+
+.double-image {
+    max-width: 20em;
+}
+
+.resource-imgs {
+    margin: 2em 0;
+}
