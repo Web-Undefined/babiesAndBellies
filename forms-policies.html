@@ -84,12 +84,12 @@
 							<li><a href="packages.html#faq" class="subMenu">FAQ</a></li>
 							<li><a href="best-timing.html" class="subMenu">Pregnancy Calendar</a></li>
 							<li><a href="best-timing.html#peek" class="subMenu">Ideal Time To Peek</a></li>
-							<li><a href="gallery.html" class="subMenu">Gallery</a></li>
 						</ul>
 					</li>
 					<li><a href="massage.html">Massage Services</a></li>
 					<li class="current"><a href="forms-policies.html">Forms/Policies</a></li>
-					<li><a href="forms-policies.html#resources" class="subMenu">Resources</a></li>
+					<li><a href="forms-policies.html#resources">Resources</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
 					<li><a href="index.html#six" class="scrolly">Contact Us</a></li>
 				</ul>
 			</nav>
@@ -251,9 +251,29 @@
 						</div>
 						<div class="image align-center margin-top"><a style="border-bottom: none;"
 								href="https://learn.cordblood.com/CBR-Newsletter.html?mtag=TIX9&utm_source=babies_bellies&utm_medium=referral&utm_campaign=cbr_newsletter_nov22"><img
-									id="cbr" src="images/CBRlogo.png" alt="" /></a></div>
+									id="cbr" src="images/CBRlogo.png" alt="" /></a>
+						</div>
 					</div>
 					<div>
+						<a id="cbrBtn" href="#resources">
+							<p style="text-align: center; margin-top: 2em;">
+								Informational
+								Video</p>
+						</a>
+
+						<!-- cbr Modal -->
+						<div id="cbrModal" class="modal">
+
+							<div class="modal-content" id="cbrModal-content">
+								<span class="close">&times;</span>
+								<p class="modal-header"><b>Informational Video - CBR</b></p>
+								<video style="width: 100% !important" controls>
+									<source src="images/videos/CBR-Video.mp4" type="video/mp4" />
+								</video>
+							</div>
+						</div>
+
+
 						<p style="max-width: 60ch; text-align: center; margin: 0 auto; margin-top: 2em;">For more
 							information about the
 							benefits of
@@ -298,6 +318,30 @@
 	</div>
 
 	<!-- Scripts -->
+	<script>
+		function initializeModal(modalID, buttonID) {
+			var modal = document.getElementById(modalID);
+			var btn = document.getElementById(buttonID);
+			var span = modal.querySelector('.close');
+			btn.addEventListener('click', function () {
+				modal.style.display = "block";
+			});
+
+			span.addEventListener('click', function () {
+				modal.style.display = "none";
+			});
+
+			window.addEventListener('click', function (event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			});
+		}
+
+		window.addEventListener('load', function () {
+			initializeModal('cbrModal', 'cbrBtn');
+		});
+	</script>
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.dropotron.min.js"></script>
 	<script src="assets/js/jquery.scrollex.min.js"></script>

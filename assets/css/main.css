@@ -3976,7 +3976,7 @@ body {
     }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1400px) {
     #header > .navPanelToggle {
         display: block;
     }
@@ -4149,7 +4149,7 @@ body.header-alt .dropotron.level-0 {
     }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1400px) {
     #nav {
         display: none;
     }
@@ -5264,6 +5264,15 @@ body.is-touch .poptrox-popup .closer {
     left: 1em;
     z-index: 9999;
     background-color: white;
+}
+
+@media screen and (min-width: 785px) {
+    #cbrModal-content {
+        width: 30em;
+    }
+}
+#cbrModal-content {
+    width: 25em;
 }
 
 /* The Modal (background) */
