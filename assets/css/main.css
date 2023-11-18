@@ -5294,12 +5294,59 @@ body.is-touch .poptrox-popup .closer {
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 20em; /* Could be more or less, depending on screen size */
+    width: 40%; /* Could be more or less, depending on screen size */
     border-radius: 1vw;
 }
 .translate-container {
     display: flex;
     justify-content: center;
+}
+.specials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 1650px) {
+    .modal-content {
+        width: 55%;
+    }
+}
+@media screen and (max-width: 1425px) {
+    .modal-content {
+        width: 65%;
+    }
+}
+@media screen and (max-width: 1255px) {
+    .modal-content {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 870px) {
+    .modal-content {
+        width: 75%;
+    }
+    .spec-img {
+        max-width: 30em;
+    }
+    .modal-header {
+        margin-bottom: 1em !important;
+    }
+}
+@media screen and (max-width: 625px) {
+    .modal-content {
+        width: 85%;
+    }
+    .spec-img {
+        max-width: 28em;
+    }
+}
+@media screen and (max-width: 625px) {
+    .modal-content {
+        width: 95%;
+    }
+    .spec-img {
+        max-width: 24em;
+    }
 }
 
 /* The Close Button */

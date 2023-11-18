@@ -346,8 +346,49 @@
 			</p>
 		</section>
 	</div>
+	<!-- Specials Modal -->
+	<div id="specialsModal" class="modal">
+
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<h3 class="modal-header" style="text-align: center; margin-bottom: 0;"><b>Daily Specials</b></h3>
+			<div class="specials-container">
+				<!-- <div class="image specials"><img src="images/monday.png" alt="" /></div>
+				<div class="image specials"><img src="images/tuesday.png" alt="" /></div>
+				<div class="image specials"><img src="images/wednesday.png" alt="" /></div> -->
+				<div class="image specials"><img class="spec-img" src="images/specials-all3.png" alt="" /></div>
+			</div>
+			<ul class="actions special modal-button">
+				<li><a href="tel:4017372229" class="button primary">Call Now</a></li>
+			</ul>
+		</div>
+
+	</div>
 
 	<!-- Scripts -->
+	<script>
+		function initializeModal(modalID) {
+			var modal = document.getElementById(modalID);
+			var span = modal.querySelector('.close');
+			$(window).on('load', function () {
+				modal.style.display = "block";
+			});
+
+			span.addEventListener('click', function () {
+				modal.style.display = "none";
+			});
+
+			window.addEventListener('click', function (event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			});
+		}
+
+		window.addEventListener('load', function () {
+			initializeModal('specialsModal');
+		});
+	</script>
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.dropotron.min.js"></script>
 	<script src="assets/js/jquery.scrollex.min.js"></script>
