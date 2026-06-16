@@ -4973,6 +4973,8 @@ body.is-navPanel-visible #navPanel {
 .carousel article img {
     border-radius: 0;
     width: 22em;
+    height: 300px;
+    object-fit: cover;
 }
 
 /* Poptrox */
